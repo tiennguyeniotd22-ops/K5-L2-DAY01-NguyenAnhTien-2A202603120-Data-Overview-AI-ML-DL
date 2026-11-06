@@ -5,7 +5,8 @@
 **Python / PyTorch / Ultralytics:** Python 
 **Checkpoint:** `yolo11n-cls.pt`, `yolo11n.pt`, `yolo11n-seg.pt`.  
 **Ngưỡng detection/segmentation dùng khi tạo JSON:** `0.35`, theo trường `score_threshold`.  
-**Thay đổi so với notebook nguồn:** Cần đối chiếu notebook để xác nhận.
+**Thay đổi so với notebook nguồn:**  Không / mô tả rõ thay đổi
+Cách dùng mẫu này: copy/điền trên máy, lưu thành REPORT.md, rồi upload vào panel Files của Colab (notebook không tự tạo file này). Ô cuối Colab sẽ đóng ZIP cùng day1_lab_outputs/. Giải nén và đưa vào report/ trên GitHub, rồi nộp link repo trên LMS. Không ghi họ tên, MSSV, email, số điện thoại hoặc dữ liệu cá nhân khác vào báo cáo/output; họ tên/MSSV chỉ nằm trong tên repository.
 
 ## Từ cần nhớ
 
