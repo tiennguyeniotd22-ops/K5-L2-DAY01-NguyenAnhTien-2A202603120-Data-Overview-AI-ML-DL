@@ -32,12 +32,20 @@ Các trường được yêu cầu trong record:
 
 ```json
 {
-  "class_id": 468,
-  "class_name": "cab",
-  "rank": 1,
-  "score": 0.510915,
-  "taxonomy_name": "ImageNet-1K"
-}
+    "sample_id": "traffic",
+    "coco_image_id": 210273,
+    "image_width": 640,
+    "image_height": 428,
+    "task": "image_classification",
+    "taxonomy_name": "ImageNet-1K",
+    "model_file": "yolo11n-cls.pt",
+    "model_sha256": "c62d41bf9625777760018bf914d2e6cd472420ccd01706d97a61cb6c82502bd7",
+    "ultralytics_version": "8.4.145",
+    "rank": 1,
+    "class_id": 468,
+    "class_name": "cab",
+    "score": 0.510915
+  }
 ```
 
 **Câu 2. Record này nói về cả bức ảnh hay về một vật thể riêng trong ảnh? Vì sao?**
